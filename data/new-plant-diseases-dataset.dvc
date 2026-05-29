@@ -1,0 +1,6 @@
+outs:
+- md5: d2aeb352bda9c40d2aa663434ec5fef7.dir
+  size: 5833643
+  nfiles: 760
+  hash: md5
+  path: new-plant-diseases-dataset

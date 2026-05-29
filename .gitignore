@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# uv / virtualenv
+.venv/
+venv/
+
+# Project outputs
+outputs/
+multirun/
+checkpoints/
+plots/
+artifacts/
+logs/
+mlruns/
+lightning_logs/
+
+# Data (tracked by DVC, not git)
+/data/**
+!data/**/*.dvc
+*.ckpt
+*.onnx
+*.plan
+
+# DVC
+.dvc/cache
+.dvc/tmp
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
