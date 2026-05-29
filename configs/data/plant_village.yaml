@@ -1,0 +1,10 @@
+# Dataset description.
+name: plant_village
+root: data/new-plant-diseases-dataset/New Plant Diseases Dataset(Augmented)/New Plant Diseases Dataset(Augmented)
+
+# Where to get the data from: one of {dvc, kaggle, local}
+source: dvc
+dvc_target: null
+
+img_size: 224
+num_classes: 38

@@ -1,0 +1,21 @@
+# Project-wide config — composes all sub-configs and defines top-level paths.
+defaults:
+  - data: plant_village
+  - model: baseline_cnn
+  - training: default
+  - logger: default
+  - _self_
+
+seed: 42
+
+# Output directories (relative to project root by default; Hydra puts run-specific dirs under outputs/)
+checkpoints_dir: checkpoints
+plots_dir: plots
+artifacts_dir: artifacts
+logs_dir: logs
+
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: false
