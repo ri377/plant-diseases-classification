@@ -1,6 +1,6 @@
 [core]
-    remote = data-storage
+    remote = models-storage
 ['remote "data-storage"']
-    url = gdrive://plant-diseases-classification/data
+    url = /home/rrinn/dvc-remotes/data
 ['remote "models-storage"']
-    url = gdrive://plant-diseases-classification/models
+    url = /home/rrinn/dvc-remotes/models
